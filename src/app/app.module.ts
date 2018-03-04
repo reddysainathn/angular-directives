@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { NgIfUsageComponent } from './components/ng-if-usage/ng-if-usage.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NgIfUsageComponent
   ],
   imports: [
     BrowserModule
