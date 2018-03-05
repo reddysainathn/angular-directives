@@ -7,6 +7,7 @@ import { NgIfUsageComponent } from './components/ng-if-usage/ng-if-usage.compone
 import { HiddenUsageComponent } from './components/hidden-usage/hidden-usage.component';
 import { NgSwitchCaseUsageComponent } from './components/ng-switch-case-usage/ng-switch-case-usage.component';
 import { NgForUsageComponent } from './components/ng-for-usage/ng-for-usage.component';
+import { NgClassUsageComponent } from './components/ng-class-usage/ng-class-usage.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { NgForUsageComponent } from './components/ng-for-usage/ng-for-usage.comp
     NgIfUsageComponent,
     HiddenUsageComponent,
     NgSwitchCaseUsageComponent,
-    NgForUsageComponent
+    NgForUsageComponent,
+    NgClassUsageComponent
   ],
   imports: [
     BrowserModule
