@@ -7,11 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NgForUsageComponent implements OnInit {
 
-  courses = [
-    { id: 1, name: 'course1' },
-    { id: 2, name: 'course2' },
-    { id: 3, name: 'course3' }
-  ];
+  courses;
   onAdd() {
     this.courses.push({ id: 4, name: 'course4' })
   }
@@ -21,6 +17,17 @@ export class NgForUsageComponent implements OnInit {
   }
   onChange(course) {
     course.name = "Updated!";
+  }
+
+  loadCourses(){
+    this.courses= [
+      { id: 1, name: 'course1' },
+      { id: 2, name: 'course2' },
+      { id: 3, name: 'course3' }
+    ]
+  }
+  trackCourse(index, course){
+    return course ? course.id : undefined;
   }
   constructor() { }
 

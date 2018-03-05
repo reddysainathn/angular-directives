@@ -1,6 +1,8 @@
+<button (click)="loadCourses()">Load Courses</button><br>
+<br>  
 <button class="btn btn-primary" (click)="onAdd()">Add</button>
 <ul>
-  <li *ngFor="let course of courses; even as isEven;index as i">
+  <li *ngFor="let course of courses; even as isEven;index as i; trackBy: trackCourse">
     {{ i }}-{{ course.name }}
     <span *ngIf="isEven">(EVEN)</span>
     <button class='btn btn-danger' (click)="onRemove(course)">Remove</button>
