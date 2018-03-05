@@ -11,6 +11,7 @@ import { NgClassUsageComponent } from './components/ng-class-usage/ng-class-usag
 import { NgStyleUsageComponent } from './components/ng-style-usage/ng-style-usage.component';
 import { SafeTransversalOperatorUsageComponent } from './components/safe-transversal-operator-usage/safe-transversal-operator-usage.component';
 import { InputFormatDirective } from './directives/input-format.directive';
+import { ZippyComponent } from './components/zippy/zippy.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { InputFormatDirective } from './directives/input-format.directive';
     NgClassUsageComponent,
     NgStyleUsageComponent,
     SafeTransversalOperatorUsageComponent,
-    InputFormatDirective
+    InputFormatDirective,
+    ZippyComponent
   ],
   imports: [
     BrowserModule
