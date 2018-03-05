@@ -10,6 +10,7 @@ import { NgForUsageComponent } from './components/ng-for-usage/ng-for-usage.comp
 import { NgClassUsageComponent } from './components/ng-class-usage/ng-class-usage.component';
 import { NgStyleUsageComponent } from './components/ng-style-usage/ng-style-usage.component';
 import { SafeTransversalOperatorUsageComponent } from './components/safe-transversal-operator-usage/safe-transversal-operator-usage.component';
+import { InputFormatDirective } from './directives/input-format.directive';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { SafeTransversalOperatorUsageComponent } from './components/safe-transve
     NgForUsageComponent,
     NgClassUsageComponent,
     NgStyleUsageComponent,
-    SafeTransversalOperatorUsageComponent
+    SafeTransversalOperatorUsageComponent,
+    InputFormatDirective
   ],
   imports: [
     BrowserModule
