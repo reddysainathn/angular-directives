@@ -9,6 +9,7 @@ import { NgSwitchCaseUsageComponent } from './components/ng-switch-case-usage/ng
 import { NgForUsageComponent } from './components/ng-for-usage/ng-for-usage.component';
 import { NgClassUsageComponent } from './components/ng-class-usage/ng-class-usage.component';
 import { NgStyleUsageComponent } from './components/ng-style-usage/ng-style-usage.component';
+import { SafeTransversalOperatorUsageComponent } from './components/safe-transversal-operator-usage/safe-transversal-operator-usage.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { NgStyleUsageComponent } from './components/ng-style-usage/ng-style-usag
     NgSwitchCaseUsageComponent,
     NgForUsageComponent,
     NgClassUsageComponent,
-    NgStyleUsageComponent
+    NgStyleUsageComponent,
+    SafeTransversalOperatorUsageComponent
   ],
   imports: [
     BrowserModule
