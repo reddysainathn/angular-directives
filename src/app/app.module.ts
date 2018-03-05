@@ -8,6 +8,7 @@ import { HiddenUsageComponent } from './components/hidden-usage/hidden-usage.com
 import { NgSwitchCaseUsageComponent } from './components/ng-switch-case-usage/ng-switch-case-usage.component';
 import { NgForUsageComponent } from './components/ng-for-usage/ng-for-usage.component';
 import { NgClassUsageComponent } from './components/ng-class-usage/ng-class-usage.component';
+import { NgStyleUsageComponent } from './components/ng-style-usage/ng-style-usage.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { NgClassUsageComponent } from './components/ng-class-usage/ng-class-usag
     HiddenUsageComponent,
     NgSwitchCaseUsageComponent,
     NgForUsageComponent,
-    NgClassUsageComponent
+    NgClassUsageComponent,
+    NgStyleUsageComponent
   ],
   imports: [
     BrowserModule

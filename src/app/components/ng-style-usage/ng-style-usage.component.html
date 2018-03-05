@@ -1,0 +1,15 @@
+<!-- Without ngStyle -->
+<button [style.backgroudColor]="canSave ? 'blue':'gray'" 
+  [style.color]="canSave ? 'white':'black'" 
+  [style.fontWeight]="canSave ? 'bold':'normal'"
+  (click)="onClick()">
+  Save without ngStyle
+</button>
+<!-- With ngStyle -->
+<button [ngStyle]="{
+    backgroudColor: canSave ? 'blue':'gray',
+    color:canSave ? 'white':'black',
+    fontWeight:canSave ? 'bold':'normal'
+  }" (click)="onClick()">
+  Save with ngStyle
+</button>
